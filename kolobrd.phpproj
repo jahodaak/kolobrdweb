@@ -1,0 +1,16 @@
+﻿<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>2c7b67b3-07b4-4db9-8f87-05314769b42a</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>PHPDev</EnvName>
+    <RuntimeVersion>8.2</RuntimeVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="add.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pozadi\" />
+    <Folder Include="uploads\" />
+  </ItemGroup>
+</Project>
